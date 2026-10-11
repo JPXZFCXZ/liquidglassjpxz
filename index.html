@@ -8,441 +8,438 @@
 </head>
 <body>
 
-<div class="app-shell">
+<div class="estructura-app">
 
-  <!-- ============ SIDEBAR ============ -->
+  <!-- ============ BARRA LATERAL ============ -->
   <aside>
-    <nav class="sidebar glass-strong shine">
-      <div class="row pad-3 mb-2">
-        <span class="avatar avatar-sm a-lav">C</span>
-        <span class="headline">Cristal UI</span>
+    <nav class="barra-lateral">
+      <div class="fila relleno-3 mi-2">
+        <span class="avatar avatar-sm morado">C</span>
+        <span class="encabezado">Cristal UI</span>
       </div>
-      <span class="side-title">Fundamentos</span>
-      <a class="side-link is-active" href="#colores"><span class="dot-icon">●</span>Colores</a>
-      <a class="side-link" href="#tipografia"><span class="dot-icon" style="background:var(--lavender-d)">A</span>Tipografía</a>
-      <a class="side-link" href="#superficies"><span class="dot-icon" style="background:var(--sky-d)">◧</span>Superficies</a>
-      <span class="side-title">Componentes</span>
-      <a class="side-link" href="#botones"><span class="dot-icon" style="background:var(--pink-d)">▢</span>Botones</a>
-      <a class="side-link" href="#formularios"><span class="dot-icon" style="background:var(--mint-d)">✎</span>Formularios</a>
-      <a class="side-link" href="#navegacion"><span class="dot-icon" style="background:var(--peach-d)">☰</span>Navegación</a>
-      <a class="side-link" href="#datos"><span class="dot-icon" style="background:var(--blue-d)">≣</span>Datos</a>
-      <a class="side-link" href="#feedback"><span class="dot-icon" style="background:var(--yellow-d)">!</span>Feedback</a>
-      <span class="side-title">Visualización</span>
-      <a class="side-link" href="#graficas"><span class="dot-icon" style="background:var(--lavender-d)">◔</span>Gráficas</a>
-      <a class="side-link" href="#extras"><span class="dot-icon" style="background:var(--mint-d)">✦</span>Extras</a>
+      <span class="titulo-lateral">Fundamentos</span>
+      <a class="enlace-lateral activo" href="#colores"><span class="icono-lateral">●</span>Colores</a>
+      <a class="enlace-lateral" href="#tipografia"><span class="icono-lateral fondo-morado">A</span>Tipografía</a>
+      <a class="enlace-lateral" href="#superficies"><span class="icono-lateral fondo-naranja">◧</span>Superficies</a>
+      <span class="titulo-lateral">Componentes</span>
+      <a class="enlace-lateral" href="#botones"><span class="icono-lateral fondo-rosa">▢</span>Botones</a>
+      <a class="enlace-lateral" href="#formularios"><span class="icono-lateral fondo-verde">✎</span>Formularios</a>
+      <a class="enlace-lateral" href="#navegacion"><span class="icono-lateral fondo-naranja">☰</span>Navegación</a>
+      <a class="enlace-lateral" href="#datos"><span class="icono-lateral">≣</span>Datos</a>
+      <a class="enlace-lateral" href="#feedback"><span class="icono-lateral fondo-rosa">!</span>Feedback</a>
+      <span class="titulo-lateral">Visualización</span>
+      <a class="enlace-lateral" href="#graficas"><span class="icono-lateral fondo-morado">◔</span>Gráficas</a>
+      <a class="enlace-lateral" href="#extras"><span class="icono-lateral fondo-verde">✦</span>Extras</a>
     </nav>
   </aside>
 
-  <main class="app-main stack gap-6">
+  <main class="principal pila sep-7">
 
-    <!-- ============ HERO ============ -->
-    <header class="glass shine hero relative" style="border-radius:var(--r-xl)">
-      <span class="orb orb-blue anim-float" style="width:220px;height:220px;left:6%;top:10%"></span>
-      <span class="orb orb-pink anim-float" style="width:200px;height:200px;right:8%;bottom:6%;animation-delay:-3s"></span>
-      <span class="badge badge-lavender badge-dot">Versión 1.0</span>
-      <h1 class="display balance">Cristal <span class="gradient-text">UI</span></h1>
-      <p class="lead balance">Un solo archivo CSS con todo el entorno Apple: cristal líquido, pasteles suaves, gráficas y componentes. El HTML solo usa clases.</p>
-      <div class="row-wrap center">
-        <a class="btn btn-primary btn-lg" href="#botones">Explorar componentes</a>
-        <a class="btn btn-lg" href="#graficas">Ver gráficas</a>
+    <!-- ============ PORTADA ============ -->
+    <header class="portada escalona">
+      <span class="insignia insignia-morado insignia-punto">Versión 2.0</span>
+      <h1 class="titulo-grande balanceado">Cristal <span class="texto-degradado">UI</span></h1>
+      <p class="intro balanceado">Un solo CSS en español para todos tus proyectos. Fondo blanco, superficies suaves y animaciones con física de resorte.</p>
+      <div class="fila-envuelta centro">
+        <a class="boton boton-primario boton-lg" href="#botones">Explorar componentes</a>
+        <a class="boton boton-suave boton-lg" href="#graficas">Ver gráficas</a>
       </div>
     </header>
 
     <!-- ============ COLORES ============ -->
-    <section id="colores" class="stack">
-      <div><h2 class="title-2">Colores</h2><p class="callout">Paleta pastel con una variante intensa para texto y acentos.</p></div>
-      <div class="grid grid-4" style="--gap:var(--s-3)">
-        <div class="swatch bg-blue">Azul</div><div class="swatch bg-mint">Menta</div>
-        <div class="swatch bg-pink">Rosa</div><div class="swatch bg-lavender">Lavanda</div>
-        <div class="swatch bg-peach">Durazno</div><div class="swatch bg-yellow">Limón</div>
-        <div class="swatch bg-sky">Cielo</div>
-        <div class="swatch" style="background:linear-gradient(135deg,var(--blue-d),var(--lavender-d));color:#fff">Acento</div>
+    <section id="colores" class="pila revelar">
+      <div><h2 class="titulo-2">Colores</h2><p class="detalle">Colores del sistema Apple y su versión pastel, que se calcula sola.</p></div>
+      <div class="rejilla rejilla-4 sep-3">
+        <div class="muestra fondo-azul">Azul</div><div class="muestra fondo-verde">Verde</div>
+        <div class="muestra fondo-rosa">Rosa</div><div class="muestra fondo-morado">Morado</div>
+        <div class="muestra fondo-azul-suave texto-acento">Azul suave</div><div class="muestra fondo-verde-suave">Verde suave</div>
+        <div class="muestra fondo-rosa-suave">Rosa suave</div><div class="muestra fondo-morado-suave">Morado suave</div>
+        <div class="muestra fondo-naranja-suave">Naranja suave</div><div class="muestra fondo-amarillo-suave">Amarillo suave</div>
+        <div class="muestra fondo-cian-suave">Cian suave</div><div class="muestra fondo-gris">Gris tarjeta</div>
       </div>
     </section>
 
     <!-- ============ TIPOGRAFÍA ============ -->
-    <section id="tipografia" class="stack">
-      <div><h2 class="title-2">Tipografía</h2><p class="callout">Usa SF Pro en dispositivos Apple y la fuente del sistema en el resto.</p></div>
-      <div class="glass card stack gap-3">
-        <p class="display">Display</p>
-        <p class="title-1">Título 1</p>
-        <p class="title-2">Título 2</p>
-        <p class="title-3">Título 3</p>
-        <p class="headline">Headline destacado</p>
-        <p class="body">Texto de cuerpo para párrafos y contenido general.</p>
-        <p class="callout">Texto secundario, un poco más suave.</p>
-        <p class="caption">Caption para notas y metadatos</p>
-        <div class="row-wrap"><span class="kbd">⌘</span><span class="kbd">K</span><span class="mono text-3">atajo de teclado</span></div>
-        <pre class="code-block">.btn.btn-primary { /* listo para usar */ }</pre>
+    <section id="tipografia" class="pila revelar">
+      <div><h2 class="titulo-2">Tipografía</h2><p class="detalle">SF Pro en dispositivos Apple, fuente del sistema en el resto.</p></div>
+      <div class="tarjeta pila sep-3">
+        <p class="titulo-grande">Título grande</p>
+        <p class="titulo-1">Título 1</p>
+        <p class="titulo-2">Título 2</p>
+        <p class="titulo-3">Título 3</p>
+        <p class="encabezado">Encabezado destacado</p>
+        <p class="cuerpo">Texto de cuerpo para párrafos y contenido general.</p>
+        <p class="detalle">Texto secundario, más suave.</p>
+        <p class="nota">Nota para metadatos y pies de página</p>
+        <div class="fila-envuelta"><span class="tecla">⌘</span><span class="tecla">K</span><span class="mono texto-3">atajo de teclado</span></div>
+        <pre class="bloque-codigo">.boton.boton-primario { /* listo para usar */ }</pre>
       </div>
     </section>
 
     <!-- ============ SUPERFICIES ============ -->
-    <section id="superficies" class="stack">
-      <div><h2 class="title-2">Superficies de cristal</h2><p class="callout">Tres niveles de transparencia y tintes pastel.</p></div>
-      <div class="grid grid-3">
-        <div class="glass shine card card-hover"><p class="headline">Glass</p><p class="callout">Cristal estándar con desenfoque.</p></div>
-        <div class="glass-strong shine card card-hover"><p class="headline">Glass strong</p><p class="callout">Más opaco, ideal para paneles.</p></div>
-        <div class="glass-clear card card-hover"><p class="headline">Glass clear</p><p class="callout">Casi transparente y ligero.</p></div>
-        <div class="glass tint-blue card"><p class="headline">Tinte azul</p></div>
-        <div class="glass tint-mint card"><p class="headline">Tinte menta</p></div>
-        <div class="glass tint-pink card"><p class="headline">Tinte rosa</p></div>
+    <section id="superficies" class="pila revelar">
+      <div><h2 class="titulo-2">Superficies</h2><p class="detalle">Tarjetas planas y suaves. El vidrio se reserva para lo que flota sobre el contenido.</p></div>
+      <div class="rejilla rejilla-3">
+        <div class="tarjeta tarjeta-interactiva"><p class="encabezado">Tarjeta</p><p class="detalle">Gris suave, sin bordes ni brillos.</p></div>
+        <div class="tarjeta-blanca tarjeta-interactiva"><p class="encabezado">Tarjeta blanca</p><p class="detalle">Con sombra discreta.</p></div>
+        <div class="tarjeta-borde tarjeta-interactiva"><p class="encabezado">Tarjeta con borde</p><p class="detalle">Línea fina de 0.5 px.</p></div>
       </div>
-      <div class="grid grid-3">
-        <div class="glass card card-media card-hover"><div class="media"></div><div class="body-pad"><p class="headline">Tarjeta con imagen</p><p class="callout">Media, título y descripción.</p></div></div>
-        <div class="glass card card-media card-hover"><div class="media media-mint"></div><div class="body-pad"><p class="headline">Variante menta</p><p class="callout">Mismo patrón, otro color.</p></div></div>
-        <div class="glass card card-media card-hover"><div class="media media-peach"></div><div class="body-pad"><p class="headline">Variante durazno</p><p class="callout">Se adapta a cualquier contenido.</p></div></div>
+      <div class="rejilla rejilla-3">
+        <div class="tarjeta tarjeta-media tarjeta-interactiva"><div class="media"></div><div class="contenido"><p class="encabezado">Con imagen</p><p class="detalle">Media, título y descripción.</p></div></div>
+        <div class="tarjeta tarjeta-media tarjeta-interactiva"><div class="media media-verde"></div><div class="contenido"><p class="encabezado">Variante verde</p><p class="detalle">Mismo patrón, otro tono.</p></div></div>
+        <div class="relativo sin-desborde redondeo-lg"><div class="media media-rosa" style="height:100%;min-height:200px"></div>
+          <div class="vidrio-fuerte redondeo-md relleno-4 superpuesto"><p class="encabezado">Vidrio</p><p class="detalle">Desenfoca lo que hay detrás.</p></div></div>
       </div>
     </section>
 
     <!-- ============ BOTONES ============ -->
-    <section id="botones" class="stack">
-      <div><h2 class="title-2">Botones</h2></div>
-      <div class="glass card stack gap-5">
-        <div class="row-wrap">
-          <button class="btn btn-primary">Primario</button>
-          <button class="btn btn-mint">Menta</button>
-          <button class="btn btn-pink">Rosa</button>
-          <button class="btn btn-lavender">Lavanda</button>
-          <button class="btn btn-peach">Durazno</button>
-          <button class="btn btn-danger">Eliminar</button>
+    <section id="botones" class="pila revelar">
+      <div><h2 class="titulo-2">Botones</h2><p class="detalle">Presiónalos: se hunden rápido y regresan con rebote.</p></div>
+      <div class="tarjeta pila sep-5">
+        <div class="fila-envuelta">
+          <button class="boton boton-primario">Primario</button>
+          <button class="boton boton-verde">Verde</button>
+          <button class="boton boton-rosa">Rosa</button>
+          <button class="boton boton-morado">Morado</button>
+          <button class="boton boton-naranja">Naranja</button>
+          <button class="boton boton-peligro">Eliminar</button>
+          <button class="boton boton-oscuro">Oscuro</button>
         </div>
-        <div class="row-wrap">
-          <button class="btn">Cristal</button>
-          <button class="btn btn-soft">Suave</button>
-          <button class="btn btn-outline">Contorno</button>
-          <button class="btn btn-ghost">Fantasma</button>
-          <button class="btn btn-link">Enlace</button>
-          <button class="btn btn-primary" disabled>Deshabilitado</button>
+        <div class="fila-envuelta">
+          <button class="boton boton-suave">Suave azul</button>
+          <button class="boton boton-suave-verde">Suave verde</button>
+          <button class="boton boton-suave-rosa">Suave rosa</button>
+          <button class="boton boton-suave-morado">Suave morado</button>
+          <button class="boton boton-gris">Gris</button>
+          <button class="boton boton-contorno">Contorno</button>
+          <button class="boton boton-fantasma">Fantasma</button>
+          <button class="boton boton-enlace">Enlace</button>
+          <button class="boton boton-primario" disabled>Deshabilitado</button>
         </div>
-        <div class="row-wrap">
-          <button class="btn btn-primary btn-sm">Pequeño</button>
-          <button class="btn btn-primary">Normal</button>
-          <button class="btn btn-primary btn-lg">Grande</button>
-          <button class="btn btn-icon">♥</button>
-          <button class="btn btn-icon btn-primary">＋</button>
-          <button class="btn btn-icon btn-pink btn-lg">★</button>
+        <div class="fila-envuelta">
+          <button class="boton boton-primario boton-sm">Pequeño</button>
+          <button class="boton boton-primario">Normal</button>
+          <button class="boton boton-primario boton-lg">Grande</button>
+          <button class="boton boton-gris boton-icono">♥</button>
+          <button class="boton boton-primario boton-icono">＋</button>
+          <button class="boton boton-rosa boton-icono boton-lg">★</button>
         </div>
-        <div class="row-wrap">
-          <div class="btn-group"><button class="btn is-active">Día</button><button class="btn">Semana</button><button class="btn">Mes</button></div>
-          <button class="btn btn-primary"><span class="spinner spinner-sm" style="border-top-color:#fff;border-color:rgba(255,255,255,.4);border-top-color:#fff"></span>Guardando</button>
+        <div class="fila-envuelta">
+          <div class="grupo-botones"><button class="boton activo">Día</button><button class="boton">Semana</button><button class="boton">Mes</button></div>
+          <button class="boton boton-primario"><span class="cargando cargando-sm cargando-blanco"></span>Guardando</button>
         </div>
-        <button class="btn btn-primary btn-block btn-lg">Botón de ancho completo</button>
+        <button class="boton boton-primario boton-bloque boton-lg">Botón de ancho completo</button>
       </div>
     </section>
 
     <!-- ============ FORMULARIOS ============ -->
-    <section id="formularios" class="stack">
-      <div><h2 class="title-2">Formularios</h2></div>
-      <div class="grid grid-2">
-        <div class="glass card stack gap-4">
-          <div class="field"><label class="label">Nombre</label><input class="input" placeholder="Tu nombre"></div>
-          <div class="field"><label class="label">Correo</label><input class="input is-ok" value="hola@cristal.app"><span class="hint">Correo verificado</span></div>
-          <div class="field"><label class="label">Contraseña</label><input class="input is-error" type="password" value="1234"><span class="hint is-error">Debe tener al menos 8 caracteres</span></div>
-          <div class="field"><label class="label">País</label><select class="select"><option>México</option><option>Argentina</option><option>España</option></select></div>
-          <div class="field"><label class="label">Mensaje</label><textarea class="textarea" placeholder="Escribe aquí…"></textarea></div>
-          <div class="input-group"><span class="input-icon">⌕</span><input class="input search" placeholder="Buscar"></div>
+    <section id="formularios" class="pila revelar">
+      <div><h2 class="titulo-2">Formularios</h2></div>
+      <div class="rejilla rejilla-2">
+        <div class="tarjeta pila sep-4">
+          <div class="campo"><label class="rotulo">Nombre</label><input class="entrada" placeholder="Tu nombre"></div>
+          <div class="campo"><label class="rotulo">Correo</label><input class="entrada ok" value="hola@ejemplo.com"><span class="ayuda">Correo verificado</span></div>
+          <div class="campo"><label class="rotulo">Contraseña</label><input class="entrada error" type="password" value="1234"><span class="ayuda error">Debe tener al menos 8 caracteres</span></div>
+          <div class="campo"><label class="rotulo">País</label><select class="selector"><option>México</option><option>Argentina</option><option>España</option></select></div>
+          <div class="campo"><label class="rotulo">Mensaje</label><textarea class="area-texto" placeholder="Escribe aquí…"></textarea></div>
+          <div class="grupo-entrada"><span class="icono-entrada">⌕</span><input class="entrada buscador" placeholder="Buscar"></div>
         </div>
-        <div class="glass card stack gap-5">
-          <div class="row between"><span>Modo avión</span><label class="switch"><input type="checkbox"><span class="track"></span></label></div>
-          <div class="row between"><span>Wi-Fi</span><label class="switch"><input type="checkbox" checked><span class="track"></span></label></div>
-          <div class="row between"><span>Bluetooth</span><label class="switch switch-blue"><input type="checkbox" checked><span class="track"></span></label></div>
-          <div class="row between"><span>Notificaciones</span><label class="switch switch-pink"><input type="checkbox" checked><span class="track"></span></label></div>
-          <hr class="divider">
-          <div class="stack gap-3">
-            <label class="check"><input type="checkbox" checked>Acepto los términos</label>
-            <label class="check"><input type="checkbox">Recibir novedades</label>
-            <label class="check"><input type="checkbox" disabled>Opción deshabilitada</label>
+        <div class="tarjeta pila sep-5">
+          <div class="fila entre"><span>Modo avión</span><label class="interruptor"><input type="checkbox"><span class="pista"></span></label></div>
+          <div class="fila entre"><span>Wi-Fi</span><label class="interruptor"><input type="checkbox" checked><span class="pista"></span></label></div>
+          <div class="fila entre"><span>Bluetooth</span><label class="interruptor interruptor-azul"><input type="checkbox" checked><span class="pista"></span></label></div>
+          <div class="fila entre"><span>Notificaciones</span><label class="interruptor interruptor-rosa"><input type="checkbox" checked><span class="pista"></span></label></div>
+          <hr class="divisor">
+          <div class="pila sep-3">
+            <label class="casilla"><input type="checkbox" checked>Acepto los términos</label>
+            <label class="casilla"><input type="checkbox">Recibir novedades</label>
+            <label class="casilla"><input type="checkbox" disabled>Opción deshabilitada</label>
           </div>
-          <div class="stack gap-3">
-            <label class="radio"><input type="radio" name="plan" checked>Plan mensual</label>
-            <label class="radio"><input type="radio" name="plan">Plan anual</label>
+          <div class="pila sep-3">
+            <label class="opcion"><input type="radio" name="plan" checked>Plan mensual</label>
+            <label class="opcion"><input type="radio" name="plan">Plan anual</label>
           </div>
-          <hr class="divider">
-          <div class="field"><label class="label">Volumen</label><input class="slider" type="range" min="0" max="100" value="60" style="--fill-pct:60%"></div>
-          <div class="segmented"><label><input type="radio" name="seg" checked><span>Mapa</span></label><label><input type="radio" name="seg"><span>Transporte</span></label><label><input type="radio" name="seg"><span>Satélite</span></label></div>
-          <div class="row-wrap"><div class="counter"><button class="btn btn-icon btn-sm">−</button><span class="num">2</span><button class="btn btn-icon btn-sm">＋</button></div><div class="rating">★★★★<span class="off">★</span></div></div>
-          <div class="otp"><input class="input" value="4"><input class="input" value="8"><input class="input" placeholder="·"><input class="input" placeholder="·"></div>
+          <hr class="divisor">
+          <div class="campo"><label class="rotulo">Volumen</label><input class="deslizador" type="range" min="0" max="100" value="60" style="--relleno-pct:60%"></div>
+          <div class="segmentado" style="--n:3"><label><input type="radio" name="seg" checked><span>Mapa</span></label><label><input type="radio" name="seg"><span>Transporte</span></label><label><input type="radio" name="seg"><span>Satélite</span></label></div>
+          <div class="fila-envuelta"><div class="contador"><button class="boton boton-gris boton-icono boton-sm">−</button><span class="num">2</span><button class="boton boton-gris boton-icono boton-sm">＋</button></div><div class="valoracion">★★★★<span class="vacia">★</span></div></div>
+          <div class="codigo-otp"><input class="entrada" value="4"><input class="entrada" value="8"><input class="entrada" placeholder="·"><input class="entrada" placeholder="·"></div>
         </div>
       </div>
-      <div class="file-drop"><b class="title-3">⇪</b><span class="headline">Suelta tus archivos aquí</span><span class="caption">PNG, JPG o PDF hasta 10 MB</span></div>
+      <div class="zona-archivos"><b class="titulo-3">⇪</b><span class="encabezado">Suelta tus archivos aquí</span><span class="nota">PNG, JPG o PDF hasta 10 MB</span></div>
     </section>
 
     <!-- ============ NAVEGACIÓN ============ -->
-    <section id="navegacion" class="stack">
-      <div><h2 class="title-2">Navegación</h2></div>
-      <nav class="navbar glass-strong shine" style="position:relative;top:0">
-        <span class="brand">Cristal</span>
-        <ul class="nav-links"><li><a class="is-active" href="#">Inicio</a></li><li><a href="#">Productos</a></li><li><a href="#">Soporte</a></li></ul>
-        <a class="btn btn-primary btn-sm" href="#">Comenzar</a>
-      </nav>
-      <div class="glass card stack gap-5">
-        <ol class="breadcrumb"><li>Inicio</li><li>Ajustes</li><li>Privacidad</li></ol>
-        <ul class="pagination"><li><a href="#">‹</a></li><li><a class="is-active" href="#">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li><a href="#">›</a></li></ul>
-        <ol class="steps"><li class="is-done"><span>Cuenta</span></li><li class="is-current"><span>Perfil</span></li><li><span>Pago</span></li><li><span>Listo</span></li></ol>
+    <section id="navegacion" class="pila revelar">
+      <div><h2 class="titulo-2">Navegación</h2></div>
+      <div class="tarjeta-borde sin-desborde" style="padding:0">
+        <nav class="barra-nav" style="position:relative">
+          <span class="marca">Cristal</span>
+          <ul class="enlaces-nav"><li><a class="activo" href="#">Inicio</a></li><li><a href="#">Productos</a></li><li><a href="#">Soporte</a></li></ul>
+          <a class="boton boton-primario boton-sm" href="#">Comenzar</a>
+        </nav>
+        <div class="relleno-5 pila sep-5">
+          <ol class="migas"><li>Inicio</li><li>Ajustes</li><li>Privacidad</li></ol>
+          <ul class="paginacion"><li><a href="#">‹</a></li><li><a class="activo" href="#">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li><a href="#">›</a></li></ul>
+          <ol class="pasos"><li class="hecho"><span>Cuenta</span></li><li class="actual"><span>Perfil</span></li><li><span>Pago</span></li><li><span>Listo</span></li></ol>
+        </div>
       </div>
-      <div class="glass card">
-        <div class="tabs">
+      <div class="tarjeta">
+        <div class="pestanas">
           <input type="radio" name="tabs1" id="tab-a" checked>
           <input type="radio" name="tabs1" id="tab-b">
           <input type="radio" name="tabs1" id="tab-c">
           <label for="tab-a">Resumen</label><label for="tab-b">Actividad</label><label for="tab-c">Ajustes</label>
-          <div class="tab-panel"><p class="callout">Las pestañas funcionan solo con CSS, sin JavaScript.</p></div>
-          <div class="tab-panel"><div class="progress" style="--v:72"><span></span></div></div>
-          <div class="tab-panel"><div class="row-wrap"><span class="badge badge-mint">Activo</span><span class="badge badge-peach">Pendiente</span></div></div>
+          <div class="panel-pestana"><p class="detalle">Las pestañas funcionan solo con CSS, sin JavaScript.</p></div>
+          <div class="panel-pestana"><div class="progreso" style="--v:72"><span></span></div></div>
+          <div class="panel-pestana"><div class="fila-envuelta"><span class="insignia insignia-verde">Activo</span><span class="insignia insignia-naranja">Pendiente</span></div></div>
         </div>
       </div>
-      <div class="row-wrap" style="--gap:var(--s-6)">
-        <div class="dock glass-strong"><span class="app" style="background:linear-gradient(135deg,#6fb1ff,#3f86f2)">✉</span><span class="app" style="background:linear-gradient(135deg,#ff9fc6,#e5568f)">♪</span><span class="app" style="background:linear-gradient(135deg,#8fe0bc,#2fb67c)">☎</span><span class="app" style="background:linear-gradient(135deg,#b7a3ff,#8a6cf0)">✦</span><span class="app" style="background:linear-gradient(135deg,#ffc27d,#ee8a3c)">☼</span></div>
-        <div class="popover">
-          <button class="btn">Menú contextual ▾</button>
-          <div class="popover-panel glass-strong"><a class="menu-item" href="#">Copiar <span class="kbd">⌘C</span></a><a class="menu-item" href="#">Duplicar</a><hr class="divider"><a class="menu-item danger" href="#">Eliminar</a></div>
+      <div class="fila-envuelta sep-6" style="padding-top:var(--e-6)">
+        <div class="dock vidrio-fuerte"><span class="app fondo-azul">✉</span><span class="app fondo-rosa">♪</span><span class="app fondo-verde">☎</span><span class="app fondo-morado">✦</span><span class="app fondo-naranja">☼</span></div>
+        <div class="emergente">
+          <button class="boton boton-gris">Menú contextual ▾</button>
+          <div class="panel-emergente vidrio-fuerte"><a class="opcion-menu" href="#">Copiar <span class="tecla">⌘C</span></a><a class="opcion-menu" href="#">Duplicar</a><hr class="divisor">
+          <a class="opcion-menu peligro" href="#">Eliminar</a></div>
         </div>
-        <span class="tooltip" data-tip="Esto es un tooltip" tabindex="0"><button class="btn btn-icon">?</button></span>
+        <span class="globo" data-texto="Esto es un tooltip" tabindex="0"><button class="boton boton-gris boton-icono">?</button></span>
       </div>
     </section>
 
     <!-- ============ DATOS ============ -->
-    <section id="datos" class="stack">
-      <div><h2 class="title-2">Datos</h2></div>
-      <div class="grid grid-2">
-        <ul class="list glass">
-          <li class="list-item"><span class="list-icon" style="background:var(--peach-d)">✈</span><div class="list-body"><p class="list-title">Modo avión</p></div><label class="switch"><input type="checkbox"><span class="track"></span></label></li>
-          <a class="list-item" href="#"><span class="list-icon">≋</span><div class="list-body"><p class="list-title">Wi-Fi</p></div><span class="list-end">Casa</span></a>
-          <a class="list-item" href="#"><span class="list-icon" style="background:var(--lavender-d)">✱</span><div class="list-body"><p class="list-title">Bluetooth</p><p class="list-sub">2 dispositivos</p></div><span class="list-end">Sí</span></a>
-          <a class="list-item" href="#"><span class="list-icon" style="background:var(--pink-d)">♥</span><div class="list-body"><p class="list-title">Salud</p></div><span class="list-end"></span></a>
+    <section id="datos" class="pila revelar">
+      <div><h2 class="titulo-2">Datos</h2></div>
+      <div class="rejilla rejilla-2">
+        <ul class="lista">
+          <li class="item-lista"><span class="icono-lista fondo-naranja">✈</span><div class="cuerpo-lista"><p class="titulo-lista">Modo avión</p></div><label class="interruptor"><input type="checkbox"><span class="pista"></span></label></li>
+          <a class="item-lista" href="#"><span class="icono-lista">≋</span><div class="cuerpo-lista"><p class="titulo-lista">Wi-Fi</p></div><span class="fin-lista">Casa</span></a>
+          <a class="item-lista" href="#"><span class="icono-lista fondo-morado">✱</span><div class="cuerpo-lista"><p class="titulo-lista">Bluetooth</p><p class="sub-lista">2 dispositivos</p></div><span class="fin-lista">Sí</span></a>
+          <a class="item-lista" href="#"><span class="icono-lista fondo-rosa">♥</span><div class="cuerpo-lista"><p class="titulo-lista">Salud</p></div><span class="fin-lista"></span></a>
         </ul>
-        <div class="glass card stack gap-4">
-          <div class="row-wrap"><span class="badge">Normal</span><span class="badge badge-blue">Azul</span><span class="badge badge-mint badge-dot">Menta</span><span class="badge badge-pink">Rosa</span><span class="badge badge-lavender">Lavanda</span><span class="badge badge-peach">Durazno</span><span class="badge badge-yellow">Aviso</span><span class="badge badge-red">Error</span><span class="badge badge-solid">Nuevo</span></div>
-          <div class="row-wrap"><span class="chip is-selected">Diseño</span><span class="chip">Código <span class="x">✕</span></span><span class="chip">Música</span></div>
-          <div class="row-wrap"><span class="avatar">GF</span><span class="avatar a-mint is-online">AB</span><span class="avatar a-pink avatar-lg">LM</span><div class="avatar-stack"><span class="avatar avatar-sm">A</span><span class="avatar avatar-sm a-mint">B</span><span class="avatar avatar-sm a-peach">C</span><span class="avatar avatar-sm a-lav">+4</span></div></div>
-          <div class="row-wrap"><span class="row gap-2"><i class="status-dot on"></i>En línea</span><span class="row gap-2"><i class="status-dot warn"></i>Ausente</span><span class="row gap-2"><i class="status-dot off"></i>Ocupado</span><span class="counter-badge">3</span></div>
+        <div class="tarjeta pila sep-4">
+          <div class="fila-envuelta"><span class="insignia">Normal</span><span class="insignia insignia-azul">Azul</span><span class="insignia insignia-verde insignia-punto">Verde</span><span class="insignia insignia-rosa">Rosa</span><span class="insignia insignia-morado">Morado</span><span class="insignia insignia-naranja">Naranja</span><span class="insignia insignia-amarillo">Aviso</span><span class="insignia insignia-rojo">Error</span><span class="insignia insignia-solida">Nuevo</span></div>
+          <div class="fila-envuelta"><span class="ficha seleccionada">Diseño</span><span class="ficha">Código <span class="x">✕</span></span><span class="ficha">Música</span></div>
+          <div class="fila-envuelta"><span class="avatar">GF</span><span class="avatar verde en-linea">AB</span><span class="avatar rosa avatar-lg">LM</span><div class="pila-avatares"><span class="avatar avatar-sm">A</span><span class="avatar avatar-sm verde">B</span><span class="avatar avatar-sm naranja">C</span><span class="avatar avatar-sm morado">+4</span></div></div>
+          <div class="fila-envuelta"><span class="fila sep-2"><i class="estado activo late"></i>En línea</span><span class="fila sep-2"><i class="estado aviso"></i>Ausente</span><span class="fila sep-2"><i class="estado apagado"></i>Ocupado</span><span class="globo-numero">3</span></div>
         </div>
       </div>
-      <div class="grid grid-4">
-        <div class="glass card stat"><span class="stat-label">Ingresos</span><span class="stat-value">$48.2k</span><span class="delta up">12.4%</span></div>
-        <div class="glass card stat"><span class="stat-label">Usuarios</span><span class="stat-value">8,421</span><span class="delta up">5.1%</span></div>
-        <div class="glass card stat"><span class="stat-label">Rebote</span><span class="stat-value">32%</span><span class="delta down">2.3%</span></div>
-        <div class="glass card stat"><span class="stat-label">Pedidos</span><span class="stat-value">1,208</span><span class="delta up">8.7%</span></div>
+      <div class="rejilla rejilla-4">
+        <div class="tarjeta cifra"><span class="rotulo-cifra">Ingresos</span><span class="valor-cifra">$<span class="contar" style="--valor:48200"></span></span><span class="variacion sube">12.4%</span></div>
+        <div class="tarjeta cifra"><span class="rotulo-cifra">Usuarios</span><span class="valor-cifra"><span class="contar" style="--valor:8421"></span></span><span class="variacion sube">5.1%</span></div>
+        <div class="tarjeta cifra"><span class="rotulo-cifra">Rebote</span><span class="valor-cifra"><span class="contar" style="--valor:32"></span>%</span><span class="variacion baja">2.3%</span></div>
+        <div class="tarjeta cifra"><span class="rotulo-cifra">Pedidos</span><span class="valor-cifra"><span class="contar" style="--valor:1208"></span></span><span class="variacion sube">8.7%</span></div>
       </div>
-      <div class="glass table-wrap">
-        <table class="table">
+      <div class="envoltura-tabla">
+        <table class="tabla">
           <thead><tr><th>Cliente</th><th>Estado</th><th>Fecha</th><th class="num">Monto</th></tr></thead>
           <tbody>
-            <tr><td><span class="row gap-3"><span class="avatar avatar-sm">LM</span>Lucía Martínez</span></td><td><span class="badge badge-mint badge-dot">Pagado</span></td><td>12 oct</td><td class="num">$1,240</td></tr>
-            <tr><td><span class="row gap-3"><span class="avatar avatar-sm a-pink">DR</span>Diego Ramos</span></td><td><span class="badge badge-peach badge-dot">Pendiente</span></td><td>11 oct</td><td class="num">$860</td></tr>
-            <tr><td><span class="row gap-3"><span class="avatar avatar-sm a-mint">SP</span>Sofía Pérez</span></td><td><span class="badge badge-red badge-dot">Rechazado</span></td><td>09 oct</td><td class="num">$420</td></tr>
+            <tr><td><span class="fila sep-3"><span class="avatar avatar-sm">LM</span>Lucía Martínez</span></td><td><span class="insignia insignia-verde insignia-punto">Pagado</span></td><td>12 oct</td><td class="num">$1,240</td></tr>
+            <tr><td><span class="fila sep-3"><span class="avatar avatar-sm rosa">DR</span>Diego Ramos</span></td><td><span class="insignia insignia-naranja insignia-punto">Pendiente</span></td><td>11 oct</td><td class="num">$860</td></tr>
+            <tr><td><span class="fila sep-3"><span class="avatar avatar-sm verde">SP</span>Sofía Pérez</span></td><td><span class="insignia insignia-rojo insignia-punto">Rechazado</span></td><td>09 oct</td><td class="num">$420</td></tr>
           </tbody>
         </table>
       </div>
-      <div class="grid grid-2">
-        <div class="glass card">
-          <p class="headline mb-5">Historial</p>
-          <ul class="timeline">
-            <li><p class="semibold">Pedido creado</p><p class="caption">Hoy, 9:41</p></li>
-            <li class="t-mint"><p class="semibold">Pago confirmado</p><p class="caption">Hoy, 9:43</p></li>
-            <li class="t-lav"><p class="semibold">En preparación</p><p class="caption">Hoy, 11:10</p></li>
-            <li class="t-pink"><p class="semibold">Enviado</p><p class="caption">Mañana</p></li>
+      <div class="rejilla rejilla-2">
+        <div class="tarjeta">
+          <p class="encabezado mi-5">Historial</p>
+          <ul class="linea-tiempo">
+            <li><p class="seminegrita">Pedido creado</p><p class="nota">Hoy, 9:41</p></li>
+            <li class="verde"><p class="seminegrita">Pago confirmado</p><p class="nota">Hoy, 9:43</p></li>
+            <li class="morado"><p class="seminegrita">En preparación</p><p class="nota">Hoy, 11:10</p></li>
+            <li class="rosa"><p class="seminegrita">Enviado</p><p class="nota">Mañana</p></li>
           </ul>
         </div>
-        <div class="glass card">
-          <p class="headline mb-4">Octubre 2026</p>
-          <div class="calendar">
-            <span class="dow">L</span><span class="dow">M</span><span class="dow">M</span><span class="dow">J</span><span class="dow">V</span><span class="dow">S</span><span class="dow">D</span>
-            <span class="day is-muted">28</span><span class="day is-muted">29</span><span class="day is-muted">30</span><span class="day">1</span><span class="day">2</span><span class="day">3</span><span class="day">4</span>
-            <span class="day">5</span><span class="day has-event">6</span><span class="day">7</span><span class="day">8</span><span class="day">9</span><span class="day is-today">10</span><span class="day">11</span>
-            <span class="day">12</span><span class="day">13</span><span class="day has-event">14</span><span class="day">15</span><span class="day">16</span><span class="day">17</span><span class="day">18</span>
+        <div class="tarjeta">
+          <p class="encabezado mi-4">Octubre 2026</p>
+          <div class="calendario">
+            <span class="dia-semana">L</span><span class="dia-semana">M</span><span class="dia-semana">M</span><span class="dia-semana">J</span><span class="dia-semana">V</span><span class="dia-semana">S</span><span class="dia-semana">D</span>
+            <span class="dia apagado">28</span><span class="dia apagado">29</span><span class="dia apagado">30</span><span class="dia">1</span><span class="dia">2</span><span class="dia">3</span><span class="dia">4</span>
+            <span class="dia">5</span><span class="dia evento">6</span><span class="dia">7</span><span class="dia">8</span><span class="dia">9</span><span class="dia hoy">10</span><span class="dia">11</span>
+            <span class="dia">12</span><span class="dia">13</span><span class="dia evento">14</span><span class="dia">15</span><span class="dia">16</span><span class="dia">17</span><span class="dia">18</span>
           </div>
         </div>
       </div>
     </section>
 
     <!-- ============ FEEDBACK ============ -->
-    <section id="feedback" class="stack">
-      <div><h2 class="title-2">Feedback</h2></div>
-      <div class="grid grid-2">
-        <div class="stack gap-3">
-          <div class="alert alert-info"><span class="alert-icon">i</span><div><p class="alert-title">Información</p><p class="alert-text">Hay una nueva versión disponible.</p></div></div>
-          <div class="alert alert-success"><span class="alert-icon">✓</span><div><p class="alert-title">Listo</p><p class="alert-text">Tus cambios se guardaron.</p></div></div>
-          <div class="alert alert-warning"><span class="alert-icon">!</span><div><p class="alert-title">Atención</p><p class="alert-text">Tu almacenamiento está casi lleno.</p></div></div>
-          <div class="alert alert-error"><span class="alert-icon">✕</span><div><p class="alert-title">Error</p><p class="alert-text">No se pudo conectar. Revisa tu red.</p></div></div>
+    <section id="feedback" class="pila revelar">
+      <div><h2 class="titulo-2">Feedback</h2></div>
+      <div class="rejilla rejilla-2">
+        <div class="pila sep-3">
+          <div class="alerta alerta-info"><span class="alerta-icono">i</span><div><p class="alerta-titulo">Información</p><p class="alerta-texto">Hay una nueva versión disponible.</p></div></div>
+          <div class="alerta alerta-exito"><span class="alerta-icono">✓</span><div><p class="alerta-titulo">Listo</p><p class="alerta-texto">Tus cambios se guardaron.</p></div></div>
+          <div class="alerta alerta-aviso"><span class="alerta-icono">!</span><div><p class="alerta-titulo">Atención</p><p class="alerta-texto">Tu almacenamiento está casi lleno.</p></div></div>
+          <div class="alerta alerta-error"><span class="alerta-icono">✕</span><div><p class="alerta-titulo">Error</p><p class="alerta-texto">No se pudo conectar. Revisa tu red.</p></div></div>
         </div>
-        <div class="glass card stack gap-5">
-          <div class="stack gap-2"><div class="row between callout"><span>Descarga</span><span>72%</span></div><div class="progress progress-lg" style="--v:72"><span></span></div></div>
-          <div class="progress progress-mint" style="--v:48"><span></span></div>
-          <div class="progress progress-pink" style="--v:86"><span></span></div>
-          <div class="progress progress-lavender progress-stripes" style="--v:60"><span></span></div>
-          <div class="progress progress-indeterminate"><span></span></div>
-          <div class="row-wrap" style="--gap:var(--s-5)"><div class="spinner"></div><div class="spinner spinner-lg"></div><div class="dots-loader"><i></i><i></i><i></i></div></div>
-          <div class="row-wrap"><span class="toast glass-strong"><span class="status-dot on"></span>Guardado</span><span class="toast glass-strong">Copiado al portapapeles</span></div>
+        <div class="tarjeta pila sep-5">
+          <div class="pila sep-2"><div class="fila entre detalle"><span>Descarga</span><span>72%</span></div><div class="progreso progreso-lg" style="--v:72"><span></span></div></div>
+          <div class="progreso progreso-verde" style="--v:48"><span></span></div>
+          <div class="progreso progreso-rosa" style="--v:86"><span></span></div>
+          <div class="progreso progreso-rayas" style="--v:60"><span></span></div>
+          <div class="progreso progreso-indeterminado"><span></span></div>
+          <div class="fila-envuelta sep-5"><div class="cargando"></div><div class="cargando cargando-lg"></div><div class="puntos-carga"><i></i><i></i><i></i></div></div>
+          <div class="fila-envuelta"><span class="aviso-breve vidrio-fuerte"><span class="estado activo"></span>Guardado</span><span class="aviso-breve vidrio-fuerte">Copiado al portapapeles</span></div>
         </div>
       </div>
-      <div class="grid grid-2">
-        <div class="notification glass-strong shine"><span class="app-ico">✉</span><div><p class="n-title">Mensajes</p><p class="n-text">Lucía: ¿Nos vemos a las 6?</p></div></div>
-        <div class="glass card skeleton-card"><div class="row"><div class="skeleton skeleton-circle" style="width:44px;height:44px"></div><div class="grow stack gap-2"><div class="skeleton skeleton-line" style="width:60%"></div><div class="skeleton skeleton-line" style="width:35%"></div></div></div><div class="skeleton skeleton-block"></div></div>
+      <div class="rejilla rejilla-2">
+        <div class="notificacion vidrio-fuerte"><span class="icono-app">✉</span><div><p class="noti-titulo">Mensajes</p><p class="noti-texto">Lucía: ¿Nos vemos a las 6?</p></div></div>
+        <div class="tarjeta tarjeta-esqueleto"><div class="fila"><div class="esqueleto esqueleto-circulo" style="width:44px;height:44px"></div><div class="crece pila sep-2"><div class="esqueleto esqueleto-linea" style="width:60%"></div><div class="esqueleto esqueleto-linea" style="width:35%"></div></div></div><div class="esqueleto esqueleto-bloque"></div></div>
       </div>
-      <div class="row-wrap">
-        <a class="btn btn-primary" href="#modal-demo">Abrir modal</a>
-        <a class="btn" href="#sheet-demo">Abrir hoja inferior</a>
+      <div class="fila-envuelta">
+        <a class="boton boton-primario" href="#modal-demo">Abrir modal</a>
+        <a class="boton boton-gris" href="#hoja-demo">Abrir hoja inferior</a>
       </div>
     </section>
 
     <!-- ============ GRÁFICAS ============ -->
-    <section id="graficas" class="stack">
-      <div><h2 class="title-2">Gráficas</h2><p class="callout">Todas se controlan con variables CSS como <span class="mono">--v</span>. Sin librerías.</p></div>
+    <section id="graficas" class="pila revelar">
+      <div><h2 class="titulo-2">Gráficas</h2><p class="detalle">Todas se controlan con variables como <span class="mono">--v</span>. Sin librerías.</p></div>
 
-      <div class="grid grid-2">
-        <div class="glass card chart stack gap-5">
-          <div class="row between"><p class="headline">Ventas por mes</p><div class="legend"><span><i style="--c:var(--blue)"></i>2026</span></div></div>
-          <div class="bars bars-pad">
-            <div class="bar c-blue" style="--v:42" data-l="Ene" data-v="42"></div>
-            <div class="bar c-lav" style="--v:58" data-l="Feb" data-v="58"></div>
-            <div class="bar c-pink" style="--v:35" data-l="Mar" data-v="35"></div>
-            <div class="bar c-mint" style="--v:76" data-l="Abr" data-v="76"></div>
-            <div class="bar c-peach" style="--v:64" data-l="May" data-v="64"></div>
-            <div class="bar c-blue" style="--v:92" data-l="Jun" data-v="92"></div>
+      <div class="rejilla rejilla-2">
+        <div class="tarjeta grafica pila sep-5">
+          <div class="fila entre"><p class="encabezado">Ventas por mes</p><div class="leyenda"><span><i style="--c:var(--azul)"></i>2026</span></div></div>
+          <div class="barras barras-espacio">
+            <div class="barra azul" style="--v:42;--i:0" data-l="Ene" data-v="42"></div>
+            <div class="barra morado" style="--v:58;--i:1" data-l="Feb" data-v="58"></div>
+            <div class="barra rosa" style="--v:35;--i:2" data-l="Mar" data-v="35"></div>
+            <div class="barra verde" style="--v:76;--i:3" data-l="Abr" data-v="76"></div>
+            <div class="barra naranja" style="--v:64;--i:4" data-l="May" data-v="64"></div>
+            <div class="barra azul" style="--v:92;--i:5" data-l="Jun" data-v="92"></div>
           </div>
         </div>
-        <div class="glass card chart stack gap-5">
-          <p class="headline">Tráfico por canal</p>
-          <div class="hbars">
-            <div class="hbar"><span>Orgánico</span><span class="track"><span class="fill" style="--v:78;--c:var(--blue)"></span></span><span class="val">78%</span></div>
-            <div class="hbar"><span>Social</span><span class="track"><span class="fill" style="--v:54;--c:var(--pink)"></span></span><span class="val">54%</span></div>
-            <div class="hbar"><span>Directo</span><span class="track"><span class="fill" style="--v:41;--c:var(--mint)"></span></span><span class="val">41%</span></div>
-            <div class="hbar"><span>Correo</span><span class="track"><span class="fill" style="--v:23;--c:var(--lavender)"></span></span><span class="val">23%</span></div>
+        <div class="tarjeta grafica pila sep-5">
+          <p class="encabezado">Tráfico por canal</p>
+          <div class="barras-h">
+            <div class="barra-h"><span>Orgánico</span><span class="pista-h"><span class="relleno-h" style="--v:78;--i:0;--c:var(--azul)"></span></span><span class="valor-h">78%</span></div>
+            <div class="barra-h"><span>Social</span><span class="pista-h"><span class="relleno-h" style="--v:54;--i:1;--c:var(--rosa)"></span></span><span class="valor-h">54%</span></div>
+            <div class="barra-h"><span>Directo</span><span class="pista-h"><span class="relleno-h" style="--v:41;--i:2;--c:var(--verde)"></span></span><span class="valor-h">41%</span></div>
+            <div class="barra-h"><span>Correo</span><span class="pista-h"><span class="relleno-h" style="--v:23;--i:3;--c:var(--morado)"></span></span><span class="valor-h">23%</span></div>
           </div>
-          <div class="stacked"><i style="--v:40;--c:var(--blue)"></i><i style="--v:25;--c:var(--pink)"></i><i style="--v:20;--c:var(--mint)"></i><i style="--v:15;--c:var(--lavender)"></i></div>
+          <div class="apilada"><i style="--v:40;--c:var(--azul)"></i><i style="--v:25;--c:var(--rosa)"></i><i style="--v:20;--c:var(--verde)"></i><i style="--v:15;--c:var(--morado)"></i></div>
         </div>
       </div>
 
-      <div class="glass card stack gap-4">
-        <div class="row between"><p class="headline">Crecimiento</p><div class="legend"><span><i style="--c:var(--blue-d)"></i>Usuarios</span><span><i style="--c:var(--pink-d)"></i>Ingresos</span></div></div>
-        <svg class="svg-chart" viewBox="0 0 400 200" role="img" aria-label="Gráfica de líneas">
-          <defs>
-            <linearGradient id="grad-blue" x1="0" y1="0" x2="0" y2="1"><stop class="stop-a" offset="0"/><stop class="stop-b" offset="1"/></linearGradient>
-          </defs>
-          <line class="grid-line" x1="0" y1="40" x2="400" y2="40"/><line class="grid-line" x1="0" y1="90" x2="400" y2="90"/><line class="grid-line" x1="0" y1="140" x2="400" y2="140"/><line class="grid-line" x1="0" y1="180" x2="400" y2="180"/>
+      <div class="tarjeta pila sep-4">
+        <div class="fila entre"><p class="encabezado">Crecimiento</p><div class="leyenda"><span><i style="--c:var(--azul)"></i>Usuarios</span><span><i style="--c:var(--rosa)"></i>Ingresos</span></div></div>
+        <svg class="grafica-svg" viewBox="0 0 400 200" role="img" aria-label="Gráfica de líneas">
+          <defs><linearGradient id="degradado-azul" x1="0" y1="0" x2="0" y2="1"><stop class="parada-a" offset="0"/><stop class="parada-b" offset="1"/></linearGradient></defs>
+          <line class="cuadricula" x1="0" y1="40" x2="400" y2="40"/><line class="cuadricula" x1="0" y1="90" x2="400" y2="90"/><line class="cuadricula" x1="0" y1="140" x2="400" y2="140"/><line class="cuadricula" x1="0" y1="180" x2="400" y2="180"/>
           <path class="area" d="M20 140 C55 140 55 110 90 110 S125 125 160 125 S195 70 230 70 S265 85 300 85 S335 30 370 30 L370 180 L20 180 Z"/>
-          <path class="line" d="M20 140 C55 140 55 110 90 110 S125 125 160 125 S195 70 230 70 S265 85 300 85 S335 30 370 30"/>
-          <path class="line line-2" d="M20 160 C55 160 55 150 90 150 S125 130 160 135 S195 110 230 105 S265 115 300 95 S335 80 370 70"/>
-          <circle class="dot" cx="90" cy="110" r="5"/><circle class="dot" cx="230" cy="70" r="5"/><circle class="dot" cx="370" cy="30" r="5"/>
-          <circle class="dot dot-2" cx="160" cy="135" r="5"/><circle class="dot dot-2" cx="300" cy="95" r="5"/>
-          <text class="axis-text" x="20" y="198">Ene</text><text class="axis-text" x="90" y="198">Feb</text><text class="axis-text" x="160" y="198">Mar</text><text class="axis-text" x="230" y="198">Abr</text><text class="axis-text" x="300" y="198">May</text><text class="axis-text" x="365" y="198">Jun</text>
+          <path class="trazo" d="M20 140 C55 140 55 110 90 110 S125 125 160 125 S195 70 230 70 S265 85 300 85 S335 30 370 30"/>
+          <path class="trazo trazo-2" d="M20 160 C55 160 55 150 90 150 S125 130 160 135 S195 110 230 105 S265 115 300 95 S335 80 370 70"/>
+          <circle class="punto" cx="90" cy="110" r="5"/><circle class="punto" cx="230" cy="70" r="5"/><circle class="punto" cx="370" cy="30" r="5"/>
+          <circle class="punto punto-2" cx="160" cy="135" r="5"/><circle class="punto punto-2" cx="300" cy="95" r="5"/>
+          <text class="texto-eje" x="20" y="198">Ene</text><text class="texto-eje" x="90" y="198">Feb</text><text class="texto-eje" x="160" y="198">Mar</text><text class="texto-eje" x="230" y="198">Abr</text><text class="texto-eje" x="300" y="198">May</text><text class="texto-eje" x="365" y="198">Jun</text>
         </svg>
       </div>
 
-      <div class="grid grid-3">
-        <div class="glass card chart stack gap-4" style="align-items:center">
-          <p class="headline">Ventas por categoría</p>
-          <div class="donut" style="--a:40;--b:68;--c:88"><div><p class="stat-value">3.2k</p><p class="caption">Total</p></div></div>
-          <div class="legend"><span><i style="--c:var(--blue-d)"></i>Ropa</span><span><i style="--c:var(--pink-d)"></i>Hogar</span><span><i style="--c:var(--mint-d)"></i>Tech</span><span><i style="--c:var(--lavender-d)"></i>Otros</span></div>
+      <div class="rejilla rejilla-3">
+        <div class="tarjeta grafica pila sep-4" style="align-items:center">
+          <p class="encabezado">Ventas por categoría</p>
+          <div class="dona" style="--a:40;--b:68;--c:88"><div><p class="valor-cifra">3.2k</p><p class="nota">Total</p></div></div>
+          <div class="leyenda"><span><i style="--c:var(--azul)"></i>Ropa</span><span><i style="--c:var(--rosa)"></i>Hogar</span><span><i style="--c:var(--verde)"></i>Tech</span><span><i style="--c:var(--morado)"></i>Otros</span></div>
         </div>
-        <div class="glass card stack gap-4" style="align-items:center">
-          <p class="headline">Actividad</p>
-          <div class="ring-concentric">
-            <div class="ring" style="--v:85"></div><div class="ring" style="--v:62"></div><div class="ring" style="--v:40"></div>
-          </div>
-          <div class="legend"><span><i style="--c:var(--pink-d)"></i>Mover</span><span><i style="--c:var(--mint-d)"></i>Ejercicio</span><span><i style="--c:var(--blue-d)"></i>Pararse</span></div>
+        <div class="tarjeta pila sep-4" style="align-items:center">
+          <p class="encabezado">Actividad</p>
+          <div class="anillos-concentricos"><div class="anillo" style="--v:85"></div><div class="anillo" style="--v:62"></div><div class="anillo" style="--v:40"></div></div>
+          <div class="leyenda"><span><i style="--c:var(--rosa)"></i>Mover</span><span><i style="--c:var(--verde)"></i>Ejercicio</span><span><i style="--c:var(--cian)"></i>Pararse</span></div>
         </div>
-        <div class="glass card stack gap-4" style="align-items:center">
-          <p class="headline">Medidor y pastel</p>
-          <div class="gauge" style="--v:72"><span>72%</span></div>
-          <div class="donut pie" style="--size:120px;--a:30;--b:65;--c:85"></div>
+        <div class="tarjeta pila sep-4" style="align-items:center">
+          <p class="encabezado">Medidor y pastel</p>
+          <div class="medidor" style="--v:72"><span>72%</span></div>
+          <div class="dona pastel" style="--tam:120px;--a:30;--b:65;--c:85"></div>
         </div>
       </div>
 
-      <div class="grid grid-4">
-        <div class="glass card metric-card"><span class="stat-label">Visitas</span><span class="stat-value">12.8k</span>
-          <svg class="spark" viewBox="0 0 100 40" preserveAspectRatio="none"><path class="spark-area" d="M0 32 L15 26 L30 30 L45 18 L60 22 L75 10 L100 6 L100 40 L0 40 Z"/><path d="M0 32 L15 26 L30 30 L45 18 L60 22 L75 10 L100 6"/></svg></div>
-        <div class="glass card metric-card"><span class="stat-label">Conversión</span><span class="stat-value">4.6%</span>
-          <svg class="spark s-pink" viewBox="0 0 100 40" preserveAspectRatio="none"><path class="spark-area" d="M0 12 L20 18 L40 10 L55 24 L75 20 L100 30 L100 40 L0 40 Z"/><path d="M0 12 L20 18 L40 10 L55 24 L75 20 L100 30"/></svg></div>
-        <div class="glass card metric-card"><span class="stat-label">Sesiones</span><span class="stat-value">3.1k</span>
-          <svg class="spark s-blue" viewBox="0 0 100 40" preserveAspectRatio="none"><path class="spark-area" d="M0 30 L25 22 L50 26 L75 14 L100 18 L100 40 L0 40 Z"/><path d="M0 30 L25 22 L50 26 L75 14 L100 18"/></svg></div>
-        <div class="glass card metric-card"><span class="stat-label">Retención</span><span class="stat-value">86%</span>
-          <svg class="spark s-lav" viewBox="0 0 100 40" preserveAspectRatio="none"><path class="spark-area" d="M0 20 L20 14 L45 18 L70 8 L100 12 L100 40 L0 40 Z"/><path d="M0 20 L20 14 L45 18 L70 8 L100 12"/></svg></div>
+      <div class="rejilla rejilla-4">
+        <div class="tarjeta tarjeta-metrica"><span class="rotulo-cifra">Visitas</span><span class="valor-cifra">12.8k</span>
+          <svg class="minigrafica" viewBox="0 0 100 40" preserveAspectRatio="none"><path class="area-mini" d="M0 32 L15 26 L30 30 L45 18 L60 22 L75 10 L100 6 L100 40 L0 40 Z"/><path d="M0 32 L15 26 L30 30 L45 18 L60 22 L75 10 L100 6"/></svg></div>
+        <div class="tarjeta tarjeta-metrica"><span class="rotulo-cifra">Conversión</span><span class="valor-cifra">4.6%</span>
+          <svg class="minigrafica rosa" viewBox="0 0 100 40" preserveAspectRatio="none"><path class="area-mini" d="M0 12 L20 18 L40 10 L55 24 L75 20 L100 30 L100 40 L0 40 Z"/><path d="M0 12 L20 18 L40 10 L55 24 L75 20 L100 30"/></svg></div>
+        <div class="tarjeta tarjeta-metrica"><span class="rotulo-cifra">Sesiones</span><span class="valor-cifra">3.1k</span>
+          <svg class="minigrafica azul" viewBox="0 0 100 40" preserveAspectRatio="none"><path class="area-mini" d="M0 30 L25 22 L50 26 L75 14 L100 18 L100 40 L0 40 Z"/><path d="M0 30 L25 22 L50 26 L75 14 L100 18"/></svg></div>
+        <div class="tarjeta tarjeta-metrica"><span class="rotulo-cifra">Retención</span><span class="valor-cifra">86%</span>
+          <svg class="minigrafica morado" viewBox="0 0 100 40" preserveAspectRatio="none"><path class="area-mini" d="M0 20 L20 14 L45 18 L70 8 L100 12 L100 40 L0 40 Z"/><path d="M0 20 L20 14 L45 18 L70 8 L100 12"/></svg></div>
       </div>
 
-      <div class="grid grid-2">
-        <div class="glass card stack gap-4">
-          <p class="headline">Actividad del año</p>
-          <div class="heatmap"><i style="--l:2"></i><i style="--l:1"></i><i style="--l:3"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:2"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:3"></i><i style="--l:3"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:3"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:3"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:2"></i><i style="--l:3"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:2"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:2"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:4"></i><i style="--l:3"></i><i style="--l:2"></i><i style="--l:4"></i><i style="--l:4"></i><i style="--l:2"></i><i style="--l:2"></i><i style="--l:1"></i><i style="--l:1"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:2"></i><i style="--l:4"></i><i style="--l:2"></i><i style="--l:4"></i><i style="--l:2"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:3"></i><i style="--l:1"></i><i style="--l:2"></i><i style="--l:1"></i><i style="--l:4"></i><i style="--l:3"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:2"></i><i style="--l:2"></i><i style="--l:2"></i><i style="--l:4"></i><i style="--l:4"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:2"></i><i style="--l:4"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:2"></i><i style="--l:4"></i><i style="--l:2"></i><i style="--l:3"></i><i style="--l:2"></i><i style="--l:0"></i><i style="--l:4"></i><i style="--l:2"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:4"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:2"></i><i style="--l:1"></i><i style="--l:1"></i><i style="--l:3"></i><i style="--l:3"></i><i style="--l:4"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:4"></i><i style="--l:3"></i><i style="--l:2"></i><i style="--l:1"></i><i style="--l:3"></i><i style="--l:2"></i><i style="--l:3"></i><i style="--l:2"></i><i style="--l:3"></i><i style="--l:1"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:1"></i><i style="--l:1"></i></div>
-        </div>
-        <div class="glass card stack gap-4" style="align-items:center">
-          <p class="headline">Habilidades</p>
-          <svg class="svg-chart" viewBox="0 0 200 200" style="max-width:260px" role="img" aria-label="Gráfica de radar">
-            <polygon class="grid-line" fill="none" points="100,20 176,75.3 147,164.7 53,164.7 24,75.3"/>
-            <polygon class="grid-line" fill="none" points="100,60 138,87.6 123.5,132.4 76.5,132.4 62,87.6"/>
-            <polygon class="radar-fill" points="100,36 145.6,85.2 142.3,158.2 76.5,132.4 46.7,82.7"/>
-            <text class="axis-text" x="88" y="12">Diseño</text><text class="axis-text" x="168" y="72">Código</text><text class="axis-text" x="140" y="182">Datos</text><text class="axis-text" x="28" y="182">Ventas</text><text class="axis-text" x="-4" y="72">Gestión</text>
+      <div class="rejilla rejilla-2">
+        <div class="tarjeta pila sep-4"><p class="encabezado">Actividad del año</p><div class="mapa-calor"><i style="--l:2"></i><i style="--l:1"></i><i style="--l:3"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:2"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:3"></i><i style="--l:3"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:3"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:3"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:2"></i><i style="--l:3"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:2"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:2"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:4"></i><i style="--l:3"></i><i style="--l:2"></i><i style="--l:4"></i><i style="--l:4"></i><i style="--l:2"></i><i style="--l:2"></i><i style="--l:1"></i><i style="--l:1"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:2"></i><i style="--l:4"></i><i style="--l:2"></i><i style="--l:4"></i><i style="--l:2"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:3"></i><i style="--l:1"></i><i style="--l:2"></i><i style="--l:1"></i><i style="--l:4"></i><i style="--l:3"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:2"></i><i style="--l:2"></i><i style="--l:2"></i><i style="--l:4"></i><i style="--l:4"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:2"></i><i style="--l:4"></i><i style="--l:0"></i><i style="--l:0"></i><i style="--l:2"></i><i style="--l:4"></i><i style="--l:2"></i><i style="--l:3"></i><i style="--l:2"></i><i style="--l:0"></i><i style="--l:4"></i><i style="--l:2"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:4"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:2"></i><i style="--l:1"></i><i style="--l:1"></i><i style="--l:3"></i><i style="--l:3"></i><i style="--l:4"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:4"></i><i style="--l:3"></i><i style="--l:2"></i><i style="--l:1"></i><i style="--l:3"></i><i style="--l:2"></i><i style="--l:3"></i><i style="--l:2"></i><i style="--l:3"></i><i style="--l:1"></i><i style="--l:1"></i><i style="--l:0"></i><i style="--l:1"></i><i style="--l:1"></i><i style="--l:1"></i></div></div>
+        <div class="tarjeta pila sep-4" style="align-items:center">
+          <p class="encabezado">Habilidades</p>
+          <svg class="grafica-svg" viewBox="0 0 200 200" style="max-width:260px" role="img" aria-label="Gráfica de radar">
+            <polygon class="cuadricula" fill="none" points="100,20 176,75.3 147,164.7 53,164.7 24,75.3"/>
+            <polygon class="cuadricula" fill="none" points="100,60 138,87.6 123.5,132.4 76.5,132.4 62,87.6"/>
+            <polygon class="relleno-radar" points="100,36 145.6,85.2 142.3,158.2 76.5,132.4 46.7,82.7"/>
+            <text class="texto-eje" x="86" y="12">Diseño</text><text class="texto-eje" x="166" y="72">Código</text><text class="texto-eje" x="138" y="182">Datos</text><text class="texto-eje" x="26" y="182">Ventas</text><text class="texto-eje" x="-6" y="72">Gestión</text>
           </svg>
         </div>
       </div>
 
-      <div class="glass card stack gap-4">
-        <p class="headline">Embudo de conversión</p>
-        <div class="funnel"><div style="--v:100;--c:var(--blue)">Visitas · 10,000</div><div style="--v:72;--c:var(--lavender)">Registros · 7,200</div><div style="--v:44;--c:var(--pink)">Pruebas · 4,400</div><div style="--v:22;--c:var(--mint)">Clientes · 2,200</div></div>
+      <div class="tarjeta pila sep-4">
+        <p class="encabezado">Embudo de conversión</p>
+        <div class="embudo"><div style="--v:100;--c:var(--azul)">Visitas · 10,000</div><div style="--v:72;--c:var(--morado)">Registros · 7,200</div><div style="--v:44;--c:var(--rosa)">Pruebas · 4,400</div><div style="--v:22;--c:var(--verde)">Clientes · 2,200</div></div>
       </div>
     </section>
 
     <!-- ============ EXTRAS ============ -->
-    <section id="extras" class="stack">
-      <div><h2 class="title-2">Extras</h2></div>
-      <div class="accordion glass">
-        <details open><summary>¿Qué es Cristal UI?</summary><div class="acc-body">Un sistema de diseño en un solo CSS con estilo Apple y cristal líquido.</div></details>
-        <details><summary>¿Necesito JavaScript?</summary><div class="acc-body">No. Tabs, modales, acordeones y switches funcionan solo con CSS.</div></details>
-        <details><summary>¿Tiene modo oscuro?</summary><div class="acc-body">Sí, sigue la configuración de tu sistema. También puedes forzarlo con data-theme="dark" en la etiqueta html.</div></details>
+    <section id="extras" class="pila revelar">
+      <div><h2 class="titulo-2">Extras</h2></div>
+      <div class="acordeon">
+        <details open><summary>¿Qué es Cristal UI?</summary><div class="cuerpo-acordeon">Un sistema de diseño en un solo CSS, con estilo Apple y nombres en español.</div></details>
+        <details><summary>¿Necesito JavaScript?</summary><div class="cuerpo-acordeon">No. Pestañas, modales, acordeones e interruptores funcionan solo con CSS.</div></details>
+        <details><summary>¿Tiene modo oscuro?</summary><div class="cuerpo-acordeon">Sí, sigue el modo de tu sistema. Para forzarlo usa data-tema="oscuro" en la etiqueta html.</div></details>
       </div>
-      <div class="grid grid-3">
-        <div class="glass pricing-card"><p class="headline">Básico</p><p class="price">$0</p><ul class="feature-list"><li>1 proyecto</li><li>Soporte comunitario</li></ul><button class="btn btn-block">Elegir</button></div>
-        <div class="glass-strong shine pricing-card is-featured"><span class="badge badge-blue" style="align-self:flex-start">Popular</span><p class="headline">Pro</p><p class="price">$12<span class="caption">/mes</span></p><ul class="feature-list"><li>Proyectos ilimitados</li><li>Gráficas avanzadas</li></ul><button class="btn btn-primary btn-block">Elegir</button></div>
-        <div class="glass pricing-card"><p class="headline">Equipo</p><p class="price">$29<span class="caption">/mes</span></p><ul class="feature-list"><li>Hasta 10 personas</li><li>Soporte prioritario</li></ul><button class="btn btn-block">Elegir</button></div>
+      <div class="rejilla rejilla-3">
+        <div class="tarjeta-precio"><p class="encabezado">Básico</p><p class="precio">$0</p><ul class="lista-ventajas"><li>1 proyecto</li><li>Soporte comunitario</li></ul><button class="boton boton-gris boton-bloque">Elegir</button></div>
+        <div class="tarjeta-precio destacada"><span class="insignia insignia-azul" style="align-self:flex-start">Popular</span><p class="encabezado">Pro</p><p class="precio">$12<span class="nota">/mes</span></p><ul class="lista-ventajas"><li>Proyectos ilimitados</li><li>Gráficas avanzadas</li></ul><button class="boton boton-primario boton-bloque">Elegir</button></div>
+        <div class="tarjeta-precio"><p class="encabezado">Equipo</p><p class="precio">$29<span class="nota">/mes</span></p><ul class="lista-ventajas"><li>Hasta 10 personas</li><li>Soporte prioritario</li></ul><button class="boton boton-gris boton-bloque">Elegir</button></div>
       </div>
-      <div class="grid grid-2">
-        <div class="glass card chat">
-          <div class="bubble">¿Ya viste el nuevo diseño?</div>
-          <div class="bubble me">Sí, quedó increíble ✦</div>
-          <div class="bubble">El cristal se ve muy limpio</div>
+      <div class="rejilla rejilla-2">
+        <div class="tarjeta chat">
+          <div class="burbuja">¿Ya viste el nuevo diseño?</div>
+          <div class="burbuja yo" style="animation-delay:.15s">Sí, quedó increíble</div>
+          <div class="burbuja" style="animation-delay:.3s">Se ve muy limpio</div>
         </div>
-        <div class="empty glass card"><span class="empty-icon">◌</span><p class="headline">Sin resultados</p><p class="callout">Prueba con otra búsqueda.</p><button class="btn btn-primary btn-sm">Limpiar filtros</button></div>
+        <div class="tarjeta vacio"><span class="icono-vacio">◌</span><p class="encabezado">Sin resultados</p><p class="detalle">Prueba con otra búsqueda.</p><button class="boton boton-primario boton-sm">Limpiar filtros</button></div>
       </div>
-      <div class="carousel">
-        <div class="glass card-media card"><div class="media" style="aspect-ratio:16/10"></div><div class="body-pad"><p class="headline">Tarjeta 1</p></div></div>
-        <div class="glass card-media card"><div class="media media-mint" style="aspect-ratio:16/10"></div><div class="body-pad"><p class="headline">Tarjeta 2</p></div></div>
-        <div class="glass card-media card"><div class="media media-peach" style="aspect-ratio:16/10"></div><div class="body-pad"><p class="headline">Tarjeta 3</p></div></div>
-        <div class="glass card-media card"><div class="media" style="aspect-ratio:16/10"></div><div class="body-pad"><p class="headline">Tarjeta 4</p></div></div>
+      <div class="carrusel">
+        <div class="tarjeta tarjeta-media"><div class="media"></div><div class="contenido"><p class="encabezado">Tarjeta 1</p></div></div>
+        <div class="tarjeta tarjeta-media"><div class="media media-verde"></div><div class="contenido"><p class="encabezado">Tarjeta 2</p></div></div>
+        <div class="tarjeta tarjeta-media"><div class="media media-naranja"></div><div class="contenido"><p class="encabezado">Tarjeta 3</p></div></div>
+        <div class="tarjeta tarjeta-media"><div class="media media-morado"></div><div class="contenido"><p class="encabezado">Tarjeta 4</p></div></div>
       </div>
     </section>
 
-    <p class="caption text-center mt-6">Cristal UI · cristal.css · Hecho con cariño</p>
+    <p class="nota centrado ms-6">Cristal UI · cristal.css</p>
   </main>
 </div>
 
-<!-- Barra inferior flotante -->
-<nav class="tabbar glass-strong">
-  <a class="is-active" href="#colores"><b>◐</b>Estilo</a>
+<!-- Barra de pestañas flotante -->
+<nav class="barra-pestanas vidrio-fuerte">
+  <a class="activo" href="#colores"><b>◐</b>Estilo</a>
   <a href="#botones"><b>▢</b>Botones</a>
   <a href="#graficas"><b>◔</b>Gráficas</a>
   <a href="#extras"><b>✦</b>Extras</a>
 </nav>
 
 <!-- Modal -->
-<div class="overlay" id="modal-demo">
-  <a class="overlay-close" href="#" aria-label="Cerrar"></a>
-  <div class="modal glass-strong shine stack gap-4 relative">
-    <h3 class="title-3">¿Eliminar archivo?</h3>
-    <p class="callout">Esta acción no se puede deshacer.</p>
-    <div class="row end"><a class="btn" href="#">Cancelar</a><a class="btn btn-danger" href="#">Eliminar</a></div>
+<div class="capa" id="modal-demo">
+  <a class="cerrar-capa" href="#" aria-label="Cerrar"></a>
+  <div class="modal vidrio-fuerte flota pila sep-4 relativo centrado">
+    <h3 class="titulo-3">¿Eliminar archivo?</h3>
+    <p class="detalle">Esta acción no se puede deshacer.</p>
+    <div class="rejilla rejilla-2 sep-2"><a class="boton boton-gris" href="#">Cancelar</a><a class="boton boton-peligro" href="#">Eliminar</a></div>
   </div>
 </div>
 
 <!-- Hoja inferior -->
-<div class="overlay overlay-sheet" id="sheet-demo">
-  <a class="overlay-close" href="#" aria-label="Cerrar"></a>
-  <div class="sheet glass-strong shine stack gap-4 relative">
-    <div class="sheet-grabber"></div>
-    <h3 class="title-3">Compartir</h3>
-    <div class="row-wrap"><span class="avatar a-pink">LM</span><span class="avatar a-mint">DR</span><span class="avatar">SP</span><span class="avatar a-peach">AB</span></div>
-    <a class="btn btn-primary btn-block" href="#">Copiar enlace</a>
+<div class="capa capa-hoja" id="hoja-demo">
+  <a class="cerrar-capa" href="#" aria-label="Cerrar"></a>
+  <div class="hoja vidrio-fuerte flota pila sep-4 relativo">
+    <div class="agarre"></div>
+    <h3 class="titulo-3">Compartir</h3>
+    <div class="fila-envuelta"><span class="avatar rosa">LM</span><span class="avatar verde">DR</span><span class="avatar">SP</span><span class="avatar naranja">AB</span></div>
+    <a class="boton boton-primario boton-bloque" href="#">Copiar enlace</a>
   </div>
 </div>
 
